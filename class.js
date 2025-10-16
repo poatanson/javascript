@@ -12,6 +12,6 @@ class Person {
 
     // 정적(Static) 메서드
     static info() {
-        console.log("이 클래스는 사람의 정보를 나타냅니다.");
+        console.log("이 클래스는 사람의 정보를 나타냅니다."); // 인스턴스에서는 정적 메서드를 호출할 수 없음 
     }
 }
